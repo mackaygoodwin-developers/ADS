@@ -1,6 +1,6 @@
 export default {
   widgets: [
-    // { name: 'structure-menu' }, - removed to fix bug
+    //{ name: 'structure-menu' }, - removed to fix bug
     {
       name: 'project-info',
       options: {
@@ -33,16 +33,16 @@ export default {
             value: 'https://github.com/pdimo/ads-sanity-gatsby',
             category: 'Code'
           },
-          {title: 'Frontend', value: 'https://ads-sanity-gatsby.netlify.app', category: 'apps'},
-          {title: 'Live URL', value: 'https://preview-adssanitygatsby.gtsb.io', category: 'apps'}
+          { title: 'Frontend', value: 'https://ads-sanity-gatsby.netlify.app', category: 'apps' },
+          { title: 'Live URL', value: 'https://preview-adssanitygatsby.gtsb.io', category: 'apps' }
         ]
       }
     },
-    {name: 'project-users', layout: {height: 'auto'}},
+    { name: 'project-users', layout: { height: 'auto' } },
     {
       name: 'document-list',
-      options: {title: 'Recent blog posts', order: '_createdAt desc', types: ['post']},
-      layout: {width: 'medium'}
+      options: { title: 'Recent blog posts', order: '_createdAt desc', types: ['post'] },
+      layout: { width: 'medium' }
     }
   ]
 }
