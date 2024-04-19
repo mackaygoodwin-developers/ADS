@@ -1,0 +1,67 @@
+@import "../../../styles/variables.scss";
+.faq_saction {
+  padding: 75px 0px;
+
+  ul {
+    padding-left: 15px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    li {
+      list-style-type: disc;
+      margin-bottom: 10px;
+    }
+  }
+
+  .custom_acco h2 {
+    font-size: 40px;
+    color: #39374d;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .custom_acco p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #1d2542;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .card {
+    border: 0;
+    background: none;
+
+    .card_body {
+      padding-top: 0;
+    }
+    .card_header {
+      margin-bottom: 20px !important;
+      display: inline-block;
+      width: 100%;
+      padding: 15px 30px;
+      background-color: #ffffff;
+      border: 1px solid #c5e0f8;
+      font-size: 15px;
+      color: #39374d;
+      font-weight: 700;
+      cursor: pointer;
+    }
+  }
+
+  .view_saction {
+    text-align: center;
+    margin-top: 30px;
+    display: inline-block;
+    width: 100%;
+  }
+
+  .view_saction a {
+    font-size: 16px;
+    color: #4d60ad;
+    border: 2px solid;
+    padding: 10px 40px;
+    font-weight: 600;
+    border-radius: 4px;
+    background: transparent;
+  }
+}

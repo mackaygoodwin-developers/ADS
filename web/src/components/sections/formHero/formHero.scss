@@ -1,0 +1,164 @@
+@import "../../../styles/variables";
+
+.formHero {
+  padding: 50px;
+  background: linear-gradient(180deg, rgba(30, 38, 67, 0.81) 0%, rgba(35, 42, 68, 0) 50%);
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+
+  .imgBanner {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  //breadcrumbs
+  .bred {
+    position: absolute;
+    top: 6px;
+
+    ul li {
+      display: inline-block;
+      padding-right: 20px;
+      position: relative;
+    }
+
+    ul li:before {
+      content: ">";
+      position: absolute;
+      color: $color_1;
+      right: 6px;
+      top: 3px;
+      font-size: 14px;
+    }
+
+    ul li:last-child::before {
+      display: none;
+    }
+    ul li a {
+      color: $color_1;
+      font-size: 12px;
+    }
+  }
+
+  .slider_text {
+    padding: 70px 0;
+  }
+
+  .slider_contant {
+    text-align: left;
+    color: $color_1;
+
+    p {
+      font-weight: 500;
+    }
+
+    h1 {
+      font-size: 48px;
+      color: $color_1;
+      margin: 30px 0;
+    }
+
+    li {
+      display: inline-block;
+      margin: 0 10px;
+
+      a {
+        display: inline-block;
+        padding: 13px 30px;
+        background: #ef4d4f;
+        color: $color_1;
+        border-radius: 3px;
+        font-weight: 500;
+        min-width: 250px;
+      }
+
+      &:last-child {
+        a {
+          background: #fff;
+          color: $color_3;
+        }
+      }
+    }
+  }
+
+  .slider_contant > p {
+    font-size: 19px;
+    line-height: 28px;
+    color: #ffffff;
+    font-weight: 300;
+    margin-bottom: 30px;
+  }
+
+  @media screen and (max-width: 992px) {
+    .slider_text .row > div {
+      flex: unset;
+      max-width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .slider_text {
+      padding: 40px 0;
+    }
+
+    .slider_contant {
+      text-align: center;
+    }
+
+    .slider_text {
+      padding: 30px 0;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    padding: 10px;
+
+    .slider_contant {
+      li {
+        margin: 15px 10px;
+        &:last-child {
+          a {
+            padding: 13px 40px;
+            padding: 13px 50px;
+          }
+        }
+        a {
+          padding: 13px 40px;
+        }
+      }
+    }
+
+    .slider_contant h3 {
+      font-size: 35px;
+    }
+  }
+
+  @media screen and (max-width: 414px) {
+    .slider_contant {
+      h3 {
+        font-weight: 300;
+      }
+      p {
+        width: 80%;
+        font-size: 23px;
+        margin: 0 auto;
+        img {
+          display: inline-block;
+          max-width: 135px;
+          max-width: 135px;
+          margin-top: 10px;
+          margin-left: 5px;
+          margin-right: 5px;
+        }
+      }
+    }
+  }
+}

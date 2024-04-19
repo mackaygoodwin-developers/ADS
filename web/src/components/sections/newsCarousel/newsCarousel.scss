@@ -1,0 +1,166 @@
+@import "../../../styles/variables.scss";
+
+.debt_section {
+  padding: 75px 0px;
+  button.react-multiple-carousel__arrow {
+    display: none;
+  }
+}
+
+.debt_section_heading {
+  text-align: center;
+  padding-bottom: 30px;
+  h2 {
+    font-size: 40px;
+
+    color: $color_3;
+    margin-bottom: 30px;
+  }
+  p {
+    font-size: 16px;
+
+    font-weight: 300;
+    color: $color_4;
+  }
+}
+.see_more {
+  text-align: center;
+  padding-top: 35px;
+  a {
+    font-size: 16px;
+    color: $color_7;
+    border: 2px solid;
+    padding: 10px 40px;
+
+    font-weight: 600;
+    display: inline-block;
+    border-radius: 4px;
+  }
+}
+.debt_section .react-multi-carousel-list ul.react-multi-carousel-track {
+  padding-bottom: 55px;
+}
+
+.reachers_slider {
+  .item {
+    transition: 0.5s;
+  }
+  .item {
+    position: relative;
+    top: 0;
+    max-width: 100%;
+    flex: 0 0 100%;
+    margin: 15px 0px;
+  }
+
+  .reachers_slider_img {
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .reachers_slider_text {
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+    padding: 30px 20px;
+    max-width: 92%;
+    background-image: linear-gradient(transparent, #1d2542);
+    p {
+      font-size: 14px;
+
+      color: $color_1;
+    }
+  }
+  .item {
+    position: relative;
+    top: 0;
+    &:hover {
+      top: -15px;
+      transition: 0.5s;
+    }
+  }
+
+  .react-multi-carousel-dot button {
+    background: #d2d7ea;
+    border: none !important;
+    width: 7px !important;
+    height: 7px !important;
+    margin: 0 7px !important;
+  }
+  .react-multi-carousel-dot--active button {
+    background: #9ca5ce !important;
+  }
+}
+.reachers_slider_text {
+  h4 {
+    font-size: 22px;
+
+    color: $color_1;
+  }
+}
+.slider_bottom_btn {
+  display: flex;
+  align-items: center;
+  .slider_bottom_btn_sub {
+    max-width: 50%;
+    flex: 0 0 50%;
+    a {
+      color: $color_1;
+      font-size: 18px;
+
+      position: relative;
+      &:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        bottom: -7px;
+        width: 30px;
+        height: 2px;
+        background-color: $background_color_3;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .reachers_slider {
+    .reachers_slider_img {
+      img {
+        max-width: 100%;
+        width: 100%;
+      }
+    }
+    .reachers_slider_text {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .debt_section_heading {
+    p {
+      font-size: 22px;
+      color: $color_10;
+    }
+  }
+  .reachers_slider_text {
+    h4 {
+      font-size: 26px;
+    }
+  }
+
+  .reachers_slider .reachers_slider_text p {
+    margin: 0;
+  }
+
+  .slider_bottom_btn .slider_bottom_btn_sub a {
+    font-size: 12px;
+  }
+  .reachers_slider .reachers_slider_text p {
+    font-size: 12px;
+  }
+  .reachers_slider_text h4 {
+    font-size: 18px;
+  }
+}

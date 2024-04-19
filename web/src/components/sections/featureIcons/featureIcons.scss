@@ -1,0 +1,28 @@
+@import "../../../styles/variables.scss";
+
+.usps {
+  .usps_img {
+    text-align: center;
+    padding: 10px 0px;
+    width: 100%;
+    height: 70px;
+    img {
+      width: 60px;
+      vertical-align: middle;
+    }
+  }
+  .usps_text {
+    padding: 10px 0px;
+    text-align: center;
+    h4 {
+      text-align: center;
+
+      font-size: 18px;
+      color: $color_3;
+    }
+    p {
+      font-size: 12px;
+      color: $color_4;
+    }
+  }
+}

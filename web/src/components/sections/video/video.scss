@@ -1,0 +1,97 @@
+@import "../../../styles/variables.scss";
+
+.approch {
+  padding: 75px 0px;
+  .approh_left {
+    h2 {
+      font-size: 40px;
+      color: $color_3;
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 16px;
+
+      font-weight: 300;
+      color: $color_4;
+    }
+    ul {
+      padding-left: 15px;
+      margin-bottom: 30px;
+      margin-left: 15px;
+      li {
+        list-style-type: disc;
+        font-size: 16px;
+        font-weight: 300;
+        color: $color_4;
+      }
+    }
+  }
+  .approch_right {
+    max-width: 75%;
+    margin-left: auto;
+    position: relative;
+    .apr_back_img {
+      max-width: 100%;
+      img {
+        max-width: 100%;
+      }
+    }
+    .apr_front_img {
+      position: absolute;
+      left: -25%;
+      top: 25px;
+      cursor: pointer;
+      img {
+        max-width: 300px;
+        &:last-child {
+          position: absolute;
+          top: 35%;
+          left: 35%;
+        }
+      }
+    }
+  }
+
+  .approch_left_btn {
+    padding: 15px 0px;
+    a.approch_learn {
+      font-size: 16px;
+      color: $color_7;
+      border: 2px solid;
+      padding: 13px 30px;
+      font-weight: 600;
+      border-radius: 4px;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+    }
+    a.free_consult {
+      background-color: $background_color_2;
+      color: $color_1;
+      font-weight: 600;
+      padding: 15px 13px;
+      border-radius: 4px;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  a.approch_learn {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  a.free_consult {
+    display: block;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

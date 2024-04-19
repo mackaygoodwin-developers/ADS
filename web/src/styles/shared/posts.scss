@@ -1,0 +1,266 @@
+@import "../variables";
+.singal_detil_saction {
+  padding: 75px 0;
+}
+
+.all_detail_research {
+  font-size: 16px;
+  line-height: 24px;
+  color: #747e84;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong {
+    color: #1d2542;
+  }
+
+  h1 {
+    font-size: 2.9rem;
+    margin-bottom: 30px;
+    font-weight: 300;
+  }
+  h2 {
+    font-size: 2.2rem;
+    font-weight: 500;
+  }
+  h3 {
+    font-size: 1.8rem;
+    font-weight: 300;
+  }
+  h4 {
+    font-size: 1.2rem;
+    font-weight: 200;
+  }
+  p {
+    margin-bottom: 25px;
+  }
+
+  ul,
+  ol {
+    margin: 15px 0px 15px 25px;
+  }
+
+  ul li {
+    margin: 0px 0px 0px 8px;
+    line-height: 28px;
+    list-style: outside;
+  }
+  .singal_team_img {
+    margin-bottom: 25px;
+    position: relative;
+  }
+  .invoive_q_a {
+    p:first-child {
+      margin-bottom: 10px;
+      b {
+        font-size: 20px;
+        color: #1d2542;
+      }
+    }
+  }
+  .row {
+    margin-bottom: 20px;
+  }
+  .player-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
+  }
+
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  //Hack for scroll offset
+  .anchor::before {
+    content: "";
+    display: block;
+    height: 180px;
+    margin-top: -180px;
+  }
+
+  //post info + social
+  .date_and_social {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    li {
+      display: inline-block;
+    }
+  }
+  ul.date_user li {
+    padding: 0 11px 0 25px;
+    font-size: 14px;
+    color: #747e84;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: 4% 50%;
+  }
+  ul.date_user li:first-child {
+    //background-image: url(../../images/calender.png);
+  }
+  ul.date_user li:last-child {
+    //background-image: url(../../images/user.png);
+  }
+
+  ul.social_post_shear li {
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #747e84;
+  }
+  ul.social_post_shear li a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #dadada;
+    border-radius: 50%;
+    line-height: 35px;
+    margin: 0px 5px;
+    color: #dadada;
+    font-size: 14px;
+  }
+  .singal_team_img img {
+    width: 100%;
+  }
+  .singal_team_img img.icon_saction {
+    position: absolute;
+    width: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.right_artical {
+  border: 1px solid #f3f3f3;
+  h4 {
+    margin: 0;
+    padding: 15px;
+    font-size: 22px;
+    color: #1d2542;
+    font-weight: 400;
+  }
+  ul {
+    li {
+      padding-left: 17px;
+      margin-bottom: 10px;
+      font-size: 15px;
+      color: #747e84;
+      position: relative;
+    }
+    a {
+      color: #747e84;
+    }
+    a:hover {
+      color: #6e81cd;
+    }
+
+    .scrollPass {
+      display: none;
+    }
+
+    .is-current a {
+      color: #6e81cd !important;
+      &:before {
+        content: "";
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        border-top: 7px solid transparent;
+        border-bottom: 7px solid transparent;
+        border-right: 7px solid #6e81cd;
+        top: 5px;
+        left: 0;
+      }
+    }
+  }
+  > p {
+    text-align: center;
+    margin: 0;
+    padding: 15px;
+    background-color: #f3f3f3;
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 35px;
+    color: #1a1a18;
+  }
+}
+.right_artical.sticky-top {
+  top: 90px;
+  z-index: 0;
+}
+
+// need to change the name as its the same as others
+.letest_news {
+  padding: 75px 0px;
+  .letest_news_header {
+    text-align: center;
+    padding-bottom: 30px;
+    h4 {
+      font-size: 40px;
+
+      color: $color_3;
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 16px;
+
+      font-weight: 300;
+      color: $color_3;
+    }
+  }
+}
+.ato_saction {
+  padding: 15px;
+  .singal_relat_blog {
+    display: flex;
+    align-items: end;
+    margin-bottom: 15px;
+    img {
+      max-width: 55px;
+      margin-right: 15px;
+    }
+    p {
+      margin: 0;
+      line-height: normal;
+      font-size: 15px;
+    }
+    a {
+      display: flex;
+      color: #212529;
+      :hover {
+        color: #4d60ad;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .all_detail_research h2 {
+    font-size: 35px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .right_artical.sticky {
+    position: fixed;
+    top: 90px;
+  }
+  .right_artical.sticky.stickyabs {
+    top: 2110px;
+    position: absolute;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .right_artical {
+    margin-bottom: 40px;
+  }
+}

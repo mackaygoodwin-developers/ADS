@@ -1,0 +1,89 @@
+@import "../../styles/variables";
+
+.about_singal_bio {
+  padding: 70px 0;
+
+  .social {
+    li {
+      font-size: 16px;
+      color: #9a9af7;
+      border: 2px solid #9a9af7;
+      padding: 10px 40px;
+
+      font-weight: 600;
+      display: inline-block;
+      border-radius: 4px;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      &:last-child {
+        color: #3b51aa;
+        border: 2px solid #3b51aa;
+      }
+    }
+  }
+
+  .dp_saction {
+    text-align: center;
+    .profile {
+      box-shadow: 0px 23px 23px rgba(29, 37, 66, 0.23);
+      border-radius: 50%;
+    }
+    h1 {
+      font-size: 40px;
+      color: #1d2542;
+      margin: 20px 0 10px 0;
+    }
+  }
+
+  .dp_saction.sticky-top {
+    top: 90px;
+    z-index: 0;
+  }
+
+  .all_biografy {
+    .about_domenic {
+      margin-bottom: 20px;
+      h3 {
+        font-size: 20px;
+        color: #39374d;
+        margin-bottom: 20px;
+      }
+      p {
+        color: #747e84;
+      }
+      h4 {
+        font-size: 20px;
+        color: #1d2542;
+        font-weight: bold;
+      }
+      ul {
+        li {
+          padding-left: 17px;
+          margin-bottom: 10px;
+          font-size: 15px;
+          list-style-type: square;
+          list-style-position: inside;
+          position: relative;
+          color: #747e84;
+        }
+      }
+
+      .free_form {
+        box-shadow: 0px 20px 20px rgba(3, 15, 39, 0.1);
+        margin-top: 20px;
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .all_biografy {
+    margin-top: 50px;
+  }
+
+  .about_singal_bio .dp_saction h3,
+  .about_singal_bio .all_biografy .about_domenic h3 {
+    font-size: 25px;
+  }
+}

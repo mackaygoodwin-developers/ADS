@@ -1,0 +1,37 @@
+@import "../../styles/variables.scss";
+
+.little_down_btn {
+  text-align: center;
+  position: absolute;
+  bottom: -1px;
+  left: 42.5%;
+}
+
+@media screen and (max-width: 768px) {
+  .little_down_btn {
+    left: 37%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .little_down_btn {
+    left: 30%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .little_down_btn {
+    left: 26%;
+  }
+}
+@media screen and (max-width: 320px) {
+  img.fixed_header_logo {
+    max-width: 90px;
+  }
+  .tel_num {
+    p {
+      font-size: 12px;
+    }
+  }
+  .little_down_btn {
+    left: 20%;
+  }
+}

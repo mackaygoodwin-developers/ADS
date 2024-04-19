@@ -1,0 +1,157 @@
+@import "../../../styles/variables.scss";
+
+.care_testi {
+  padding: 75px 0px;
+  .care_testi_header {
+    padding-bottom: 50px;
+    text-align: center;
+    h2 {
+      font-size: 40px;
+      color: $color_3;
+      margin-bottom: 30px;
+    }
+    p {
+      font-size: 18px;
+      font-weight: 300;
+      color: $color_3;
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+  .care_testi_content {
+    .trust_piolot_img {
+      text-align: center;
+      margin-top: 40px;
+      h3 {
+        font-size: 20px;
+        text-transform: capitalize;
+      }
+      img {
+      }
+      p {
+        font-size: 16px;
+        font-weight: 300;
+        color: $color_3;
+        margin-bottom: 10px;
+      }
+      img.tust_bottom_img {
+        max-width: 200px;
+      }
+    }
+    .col-sm-8 {
+      .col-sm-6 {
+        h3 {
+          font-size: 20px;
+        }
+        p {
+          font-size: 14px;
+
+          font-weight: 300;
+          color: $color_3;
+        }
+        span {
+          font-size: 14px;
+          font-weight: 300;
+          color: $color_3;
+        }
+      }
+    }
+  }
+
+  .trust_slide_top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    p {
+      margin-left: auto;
+      margin-bottom: 0;
+    }
+  }
+  .care_testi_content {
+    padding: 15px 0px;
+
+    h3.custom_titel {
+      font-size: 20px;
+    }
+
+    p.custom_paregraf {
+      font-size: 13px;
+      font-weight: 300;
+      color: #1d2542;
+    }
+  }
+
+  .trust_slide_top img {
+    max-width: 120px;
+  }
+
+  button.react-multiple-carousel__arrow {
+    background: transparent;
+    border: 1px solid #adadad !important;
+    min-height: 30px;
+    min-width: 35px;
+    border-radius: 50% !important;
+    background: #fff;
+    display: none;
+  }
+  button.react-multiple-carousel__arrow:before {
+    color: #adadad;
+  }
+
+  .care_testi_content {
+    .react-multiple-carousel__arrow--left {
+      left: 0 !important;
+    }
+
+    .react-multiple-carousel__arrow--right {
+      right: 0 !important;
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .care_testi_content {
+      .col {
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin: 15px 0px;
+      }
+      .col-sm-8 {
+        max-width: 100%;
+        flex: 0 0 100%;
+        margin: 15px 0px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .care_testi_content .col-sm-1 {
+      padding: 0;
+    }
+
+    .trust_piolot_img {
+      margin-top: 0px !important;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .care_testi_content .align-items-center {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .care_testi_header {
+      h2 {
+        font-size: 30px;
+      }
+      p {
+        width: 100%;
+      }
+    }
+
+    .care_testi_content {
+      .col-sm-8 {
+        display: none;
+      }
+    }
+  }
+}

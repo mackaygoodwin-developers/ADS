@@ -1,0 +1,43 @@
+.contact_map {
+  padding: 0 0;
+  overflow: hidden;
+  iframe {
+    width: 100%;
+  }
+  .off_add {
+    padding: 0 18% 0 10%;
+    h2 {
+      font-size: 40px;
+      color: #1d2542;
+      margin-bottom: 20px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 24px;
+      color: #747e84;
+      margin-bottom: 20px;
+    }
+    ul {
+      li:first-child {
+        background: url(../../../images/locatior.png);
+      }
+      li:last-child {
+        background: url(../../../images/phone.png);
+        b {
+          text-decoration: underline;
+        }
+      }
+      li {
+        font-size: 16px;
+        line-height: 24px;
+        color: #1d2542;
+        margin-bottom: 20px;
+        padding: 0px 0 0px 25px;
+        position: relative;
+        background-repeat: no-repeat !important;
+        background-position: 0px 3px !important;
+        background-size: 15px !important;
+      }
+    }
+  }
+}

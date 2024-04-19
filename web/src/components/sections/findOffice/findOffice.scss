@@ -1,0 +1,59 @@
+.findOffice {
+  padding: 50px 0;
+
+  .mapCol {
+    padding: 10px 40px;
+  }
+
+  .find_titel h2 {
+    font-size: 40px;
+    color: #1d2542;
+  }
+
+  .find_titel p {
+    color: #747e84;
+    margin-bottom: 30px;
+  }
+
+  ul.office_saction li {
+    padding: 5px 0;
+  }
+
+  ul.office_saction li a {
+    font-size: 15px;
+    letter-spacing: 0px;
+    color: #4d60ad;
+    width: auto;
+    display: inline-block;
+    position: relative;
+  }
+
+  ul.office_saction li a:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    transition: width 0.3s;
+    position: absolute;
+    bottom: -2px;
+    background-color: #0575e6;
+  }
+
+  ul.office_saction li a:hover::before {
+    width: 100%;
+  }
+  .map_saction img {
+    max-width: 100%;
+  }
+
+  @media screen and (max-width: 768px) {
+    .col {
+      width: 100%;
+      flex: unset;
+    }
+
+    .find_titel .col {
+      width: 50%;
+    }
+  }
+}

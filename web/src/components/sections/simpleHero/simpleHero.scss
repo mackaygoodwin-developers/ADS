@@ -1,0 +1,89 @@
+@import "../../../styles/variables.scss";
+
+.simpleHero.setBlankHeight {
+  min-height: 400px;
+}
+
+.simpleHero {
+  padding: 70px 0px 100px 0px;
+  text-align: center;
+  color: $color_1;
+  background: linear-gradient(180deg, rgba(30, 38, 67, 0.81) 0%, rgba(35, 42, 68, 0) 50%);
+  position: relative;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .imgBanner {
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+
+  h1 {
+    font-size: 48px;
+    color: $color_1;
+    margin: 30px 0;
+  }
+
+  .btnRed {
+    display: inline-block;
+    padding: 13px 30px;
+    background: #ef4d4f;
+    color: $color_1;
+    border-radius: 3px;
+    font-weight: 500;
+    min-width: 250px;
+  }
+
+  .btnGreen {
+    display: inline-block;
+    padding: 13px 30px;
+    background: rgb(51, 73, 105);
+    background: linear-gradient(0deg, rgba(51, 73, 105, 1) 0%, rgba(67, 83, 151, 1) 100%);
+    color: $color_1;
+    border-radius: 3px;
+    font-weight: 500;
+    min-width: 250px;
+    margin: 10px;
+  }
+
+  @media (max-width: 768px) {
+    li {
+      margin: 10px 10px;
+    }
+  }
+}
+
+.bred {
+  position: absolute;
+  top: 6px;
+
+  ul li {
+    display: inline-block;
+    padding-right: 20px;
+    position: relative;
+  }
+
+  ul li:before {
+    content: ">";
+    position: absolute;
+    color: $color_1;
+    right: 6px;
+    top: 3px;
+    font-size: 14px;
+  }
+
+  ul li:last-child::before {
+    display: none;
+  }
+  ul li a {
+    color: $color_1;
+    font-size: 12px;
+  }
+}
