@@ -1,3 +1,37 @@
+# #66 single-hop ADS to MG redirects (must stay above older rules and the catch-all)
+/liquidator/guides//liquidator/guides/what-does/liquidation-mean	https://www.mackaygoodwin.com.au/insights/what-is-business-liquidation/	301!
+/liquidator/guides//liquidator/guides/what-does/liquidation-mean/	https://www.mackaygoodwin.com.au/insights/what-is-business-liquidation/	301!
+/liquidator/guides/liquidation-faqs	https://www.mackaygoodwin.com.au/insights/what-is-business-liquidation/	301!
+/liquidator/guides/liquidation-faqs/	https://www.mackaygoodwin.com.au/insights/what-is-business-liquidation/	301!
+http://australiandebtsolvers.com.au/blog/a-guide-to-liquidation/	https://www.mackaygoodwin.com.au/insights/what-is-business-liquidation/	301!
+/blog/a-guide-to-liquidation/	https://www.mackaygoodwin.com.au/insights/what-is-business-liquidation/	301!
+/research-centre/a-guide-to-liquidation/	https://www.mackaygoodwin.com.au/insights/what-is-business-liquidation/	301!
+http://australiandebtsolvers.com.au/research-centre/a-guide-to-liquidation/	https://www.mackaygoodwin.com.au/insights/what-is-business-liquidation/	301!
+/research-centre/60-common-business-mistakes-picked-ato-tax-audits/	https://www.mackaygoodwin.com.au/insights/the-60-most-common-business-mistakes-picked-up-by-the-ato-during-tax-audits/	301!
+/research-centre/best-invoicing-apps-busy-tradies/	https://www.mackaygoodwin.com.au/insights/the-best-invoicing-apps-for-busy-tradies/	301!
+/research-centre/gets-paid-first-company-goes-liquidation/	https://www.mackaygoodwin.com.au/insights/who-gets-paid-first-when-a-company-goes-into-liquidation/	301!
+/research-centre/what-happens-to-employees-when-a-company-goes-into-liquidation/	https://www.mackaygoodwin.com.au/insights/what-happens-to-employees-when-a-company-goes-into-liquidation/	301!
+/research-centre/comprehensive-guide-voluntary-administration/	https://www.mackaygoodwin.com.au/insights/guide-to-voluntary-administration/	301!
+/research-centre/explaining-deed-company-arrangement/	https://www.mackaygoodwin.com.au/services/voluntary-administration/doca/	301!
+/research-centre/difference-receivership-administration-liquidation/	https://www.mackaygoodwin.com.au/insights/the-difference-between-receivership-administration-and-liquidation/	301!
+/research-centre/garnishee-order-work/	https://www.mackaygoodwin.com.au/insights/what-is-a-garnishee-order-and-how-does-it-work/	301!
+/research-centre/how-to-check-if-a-company-is-in-liquidation/	https://www.mackaygoodwin.com.au/insights/how-to-check-if-a-company-is-in-liquidation/	301!
+/research-centre/what-is-the-difference-between-company-bankruptcy-and-business-liquidation/	https://www.mackaygoodwin.com.au/insights/understanding-difference-liquidation-bankruptcy/	301!
+/research-centre/10-signs-business-trouble/	https://www.mackaygoodwin.com.au/insights/5-signs-business-financial-trouble/	301!
+/research-centre/guide-business-restructure-turnaround-struggling-business/	https://www.mackaygoodwin.com.au/insights/financial-restructure-a-lifeline-for-struggling-australian-businesses/	301!
+/research-centre/tax-debt-apply-company-liquidation/	https://www.mackaygoodwin.com.au/insights/how-does-tax-debt-apply-to-a-company-in-liquidation/	301!
+/research-centre/what-is-the-cost-to-liquidate-a-company/	https://www.mackaygoodwin.com.au/insights/what-is-the-cost-to-liquidate-a-company/	301!
+/research-centre/company-owes-money-gone-liquidation/	https://www.mackaygoodwin.com.au/insights/who-gets-paid-first-when-a-company-goes-into-liquidation/	301!
+/research-centre/ive-just-received-a-wind-up-notice-what-does-this-mean-and-what-do-i-do/	https://www.mackaygoodwin.com.au/insights/i-ve-received-a-wind-up-notice-what-does-this-mean-and-what-do-i-do/	301!
+/research-centre/understanding-ato-business-payment-plans/	https://www.mackaygoodwin.com.au/insights/understanding-ato-business-payment-plans/	301!
+/research-centre/the-guide-to-business-restructure/	https://www.mackaygoodwin.com.au/insights/guide-to-small-business-restructure/	301!
+/research-centre/will-safe-harbour-impact-australian-company-directors/	https://www.mackaygoodwin.com.au/services/safe-harbour/	301!
+/research-centre/a-guide-to-receivership/	https://www.mackaygoodwin.com.au/insights/guide-to-receivership/	301!
+/forensic-accounting	/404.html	404!
+/forensic-accounting/	/404.html	404!
+/corporate-insolvency/guides/top-5-things-financiers-look-for-when-you-are-applying-for-business-finance-with-david-hill	/404.html	404!
+/liquidator/guides/liquidator/guides/what-does/liquidation-mean	https://www.mackaygoodwin.com.au/insights/what-is-business-liquidation/	301!
+
 /frontpage	https://www.mackaygoodwin.com.au/	301!
 /frontpage/	https://www.mackaygoodwin.com.au/	301!
 /thank-you	https://www.mackaygoodwin.com.au/	301!
@@ -14,7 +48,6 @@
 /bankruptcy/sydney/	https://www.mackaygoodwin.com.au/bankruptcy-sydney/	301!
 /liquidator/brisbane	https://www.mackaygoodwin.com.au/company-liquidation-brisbane/	301!
 /liquidator/brisbane/	https://www.mackaygoodwin.com.au/company-liquidation-brisbane/	301!
-/liquidator/guides/liquidation-faqs/	https://www.mackaygoodwin.com.au/company-liquidation-melbourne/	301!
 /liquidator/guides/what-to-do-if-a-company-that-owes-you-money-has-gone-into-liquidation/	https://www.mackaygoodwin.com.au/insights/guide-to-liquidation/	301!
 /liquidator/melbourne	https://www.mackaygoodwin.com.au/company-liquidation-melbourne/	301!
 /liquidator/melbourne/	https://www.mackaygoodwin.com.au/company-liquidation-melbourne/	301!
@@ -166,7 +199,6 @@
 /liquidator/guides/first-steps-to-liquidate-your-business/	https://www.mackaygoodwin.com.au/insights/guide-to-liquidation/	301!
 /liquidator/guides/liquidation-a-guide-for-australian-businesses-2022	https://www.mackaygoodwin.com.au/insights/guide-to-liquidation/	301!
 /liquidator/guides/liquidation-a-guide-for-australian-businesses-2022/	https://www.mackaygoodwin.com.au/insights/guide-to-liquidation/	301!
-/liquidator/guides/liquidation-faqs	https://www.mackaygoodwin.com.au/insights/guide-to-liquidation/	301!
 /liquidator/guides/the-complete-guide-to-business-liquidation	https://www.mackaygoodwin.com.au/insights/guide-to-liquidation/	301!
 /liquidator/guides/the-complete-guide-to-business-liquidation/	https://www.mackaygoodwin.com.au/insights/guide-to-liquidation/	301!
 /liquidator/guides/top-5-things-to-know-about-liquidation-with-david-hill	https://www.mackaygoodwin.com.au/insights/guide-to-liquidation/	301!
@@ -278,7 +310,6 @@
 /voluntary-administrator/guides/adm-the-difference-between-receivership-administration-and-liquidation/	https://www.mackaygoodwin.com.au/insights/the-difference-between-receivership-administration-and-liquidation/	301!
 /liquidator/simplified-liquidation	https://www.mackaygoodwin.com.au/insights/the-liquidation-process-explained-a-step-by-step-guide/	301!
 /liquidator/simplified-liquidation/	https://www.mackaygoodwin.com.au/insights/the-liquidation-process-explained-a-step-by-step-guide/	301!
-/corporate-insolvency/guides/top-5-things-financiers-look-for-when-you-are-applying-for-business-finance-with-david-hill	https://www.mackaygoodwin.com.au/insights/top-5-things-financiers-look-for-when-you-are-applying-for-business-finance-with-david-hill/	301!
 /corporate-insolvency/guides/understanding-ato-business-payment-plans	https://www.mackaygoodwin.com.au/insights/understanding-ato-business-payment-plans/	301!
 /corporate-insolvency/guides/understanding-ato-business-payment-plans/	https://www.mackaygoodwin.com.au/insights/understanding-ato-business-payment-plans/	301!
 /corporate-insolvency/guides	https://www.mackaygoodwin.com.au/insights/understanding-corporate-insolvency-a-primer-for-australian-business-owners/	301!
@@ -319,8 +350,6 @@
 /corporate-insolvency/guides/what-is-a-statement-of-claim-and-what-action-should-you-take/	https://www.mackaygoodwin.com.au/insights/what-is-a-statement-of-claim-and-what-action-should-you-take/	301!
 /corporate-insolvency/guides/what-is-a-statutory-demand	https://www.mackaygoodwin.com.au/insights/what-is-a-statutory-demand/	301!
 /corporate-insolvency/guides/what-is-a-statutory-demand/	https://www.mackaygoodwin.com.au/insights/what-is-a-statutory-demand/	301!
-/liquidator/guides//liquidator/guides/what-does/liquidation-mean	https://www.mackaygoodwin.com.au/insights/what-is-business-liquidation/	301!
-/liquidator/guides//liquidator/guides/what-does/liquidation-mean/	https://www.mackaygoodwin.com.au/insights/what-is-business-liquidation/	301!
 /liquidator/guides/how-soon-after-a-wind-up-notice-do-you-have-to-cease-trading	https://www.mackaygoodwin.com.au/insights/what-is-business-liquidation/	301!
 /liquidator/guides/how-soon-after-a-wind-up-notice-do-you-have-to-cease-trading/	https://www.mackaygoodwin.com.au/insights/what-is-business-liquidation/	301!
 /liquidator/guides/creditors-voluntary-winding-up	https://www.mackaygoodwin.com.au/insights/what-is-creditors-voluntary-liquidation/	301!
@@ -361,8 +390,6 @@
 /business-advisory/news	https://www.mackaygoodwin.com.au/services/	301!
 /services	https://www.mackaygoodwin.com.au/services/	301!
 /services/	https://www.mackaygoodwin.com.au/services/	301!
-/forensic-accounting	https://www.mackaygoodwin.com.au/services/accounting-and-tax/	301!
-/forensic-accounting/	https://www.mackaygoodwin.com.au/services/accounting-and-tax/	301!
 /bankruptcy	https://www.mackaygoodwin.com.au/services/bankruptcy/	301!
 /bankruptcy/	https://www.mackaygoodwin.com.au/services/bankruptcy/	301!
 /corporate-insolvency	https://www.mackaygoodwin.com.au/services/corporate-insolvency/	301!
@@ -413,9 +440,6 @@
 /voluntary-administrator/sydney/	https://www.mackaygoodwin.com.au/services/voluntary-administration/	301!
 /voluntary-administrator/guides/explaining-a-deed-of-company-arrangement	https://www.mackaygoodwin.com.au/services/voluntary-administration/doca/	301!
 /voluntary-administrator/guides/explaining-a-deed-of-company-arrangement/	https://www.mackaygoodwin.com.au/services/voluntary-administration/doca/	301!
-/liquidator/guides//liquidator/guides/what-does/liquidation-mean/ https://www.mackaygoodwin.com.au/insights/what-is-business-liquidation/ 301!
-/liquidator/guides//liquidator/guides/what-does/liquidation-mean https://www.mackaygoodwin.com.au/insights/what-is-business-liquidation/ 301!
-/liquidator/guides/liquidation-faqs https://www.mackaygoodwin.com.au/insights/guide-to-liquidation/ 301!
 /* https://www.mackaygoodwin.com.au/	301!
 /	https://www.mackaygoodwin.com.au/	301!
 /%20 / 301!
